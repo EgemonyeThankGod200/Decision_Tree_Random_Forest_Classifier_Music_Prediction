@@ -1,0 +1,13 @@
+|--- feature_0 <= 30.50
+|   |--- feature_0 <= 25.50
+|   |   |--- feature_1 <= 0.50
+|   |   |   |--- class: Dance
+|   |   |--- feature_1 >  0.50
+|   |   |   |--- class: HipHop
+|   |--- feature_0 >  25.50
+|   |   |--- feature_1 <= 0.50
+|   |   |   |--- class: Acoustic
+|   |   |--- feature_1 >  0.50
+|   |   |   |--- class: Jazz
+|--- feature_0 >  30.50
+|   |--- class: Classical
